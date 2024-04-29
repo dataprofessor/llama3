@@ -21,7 +21,7 @@ with st.sidebar:
     os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
     st.subheader('Models and parameters')
-    selected_model = st.sidebar.selectbox('Choose a Llama2 model', ['Llama2-7B', 'Llama2-13B'], key='selected_model')
+    selected_model = st.sidebar.selectbox('Choose a Llama2 model', ['meta-llama-3-8b-instruct', 'meta-llama-3-8b'], key='selected_model')
     if selected_model == 'meta-llama-3-8b-instruct':
         llm = 'meta/meta-llama-3-8b-instruct'
     elif selected_model == 'meta-llama-3-8b':
