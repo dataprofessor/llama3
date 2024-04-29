@@ -1,4 +1,4 @@
-# 🦙💬 Llama 2 Chat
+# 🦙💬 Llama 3 Chat
 
 This chatbot is created using the open-source Llama 3 LLM model from Meta.
 
